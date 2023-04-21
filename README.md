@@ -13,6 +13,7 @@ Created by Bo Louie, instructed by Professor Chris Kim at OCAD University's Scho
     - [Prerequisites](#prerequisites)
     - [Setting Up the Server](#setting-up-the-server)
     - [Installation](#installation)
+    - [Running the Chatbot](#running-the-chatbot)
   - [Usage](#usage)
   - [Contributing](#contributing)
   - [License](#license)
@@ -63,12 +64,12 @@ if __name__ == '__main__':
 
 ```
 
-5. Place the `chat.py` file in your project directory.
+### Running the Chatbot
 
-Make sure to replace <HTML_FILE_NAME> with the name of your HTML file (without the .html extension) when setting up the Flask app in the app.py file. This way, the Flask app will correctly render the HTML file when serving the chatbot.
-
-1. Run the Flask app to start the local server: `python app.py`
-2. Open your web browser and navigate to http://127.0.0.1:5000/ to interact with the chatbot.
+1. Place the chat.py file in your project directory.
+2. Make sure to replace <HTML_FILE_NAME> with the name of your HTML file (without the .html extension) when setting up the Flask app in the app.py file. This way, the Flask app will correctly render the HTML file when serving the chatbot.
+3. Run the Flask app to start the local server: python app.py
+4. Open your web browser and navigate to http://127.0.0.1:500
 
 ## Usage
 
