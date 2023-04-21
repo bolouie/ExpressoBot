@@ -4,6 +4,8 @@
 
 Coded by Bo Louie with instructor Chris Kim in Designing Artificial Intelligence (AI) applications at [OCAD University](https://continuingstudies.ocadu.ca/search/publicCourseSearchDetails.do?method=load&courseId=12164429&selectedProgramAreaId=17820&selectedProgramStreamId=17837)
 
+Preview Chatbot https://jsfiddle.net/bolouie/kabrzpgj/74/
+
 ## Table of Contents
 
 - [Demystifying the Chatbot](#demystifying-the-chatbot)
