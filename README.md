@@ -66,9 +66,9 @@ if __name__ == '__main__':
 
 ### Running the Chatbot
 
-1. Place the chat.py file in your project directory.
-2. Make sure to replace <HTML_FILE_NAME> with the name of your HTML file (without the .html extension) when setting up the Flask app in the app.py file. This way, the Flask app will correctly render the HTML file when serving the chatbot.
-3. Run the Flask app to start the local server: python app.py
+1. Place the `chat.py` file in your project directory.
+2. Make sure to replace <HTML_FILE_NAME> with the name of your HTML file (without the .html extension) when setting up the Flask app in the `app.py` file. This way, the Flask app will correctly render the HTML file when serving the chatbot.
+3. Run the Flask app to start the local server: `python app.py`
 4. Open your web browser and navigate to http://127.0.0.1:500
 
 ## Usage
