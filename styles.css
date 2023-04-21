@@ -1,0 +1,37 @@
+body {
+  font-family: Courier New;
+  text-align: center;
+}
+
+#title {
+  font-size: 24px;
+}
+
+#chat {
+  width: 400px;
+  height: 200px;
+}
+
+#msg {
+  width: 400px;
+}
+
+#send {
+  font-size: 16px;
+  width: 400px;
+  background-color: black;
+  color: white;
+  margin-top: 10px;
+}
+
+#speak {
+  font-size: 16px;
+  width: 400px;
+  background-color: blue;
+  color: white;
+  margin-top: 10px;
+}
+
+#speak.activated {
+  background-color: green;
+}
