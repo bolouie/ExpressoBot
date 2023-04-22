@@ -18,7 +18,6 @@ Preview Chatbot https://jsfiddle.net/bolouie/kabrzpgj/74/
     - [Installation](#installation)
     - [Running the Chatbot](#running-the-chatbot)
   - [Usage](#usage)
-  - [Contributing](#contributing)
   - [License](#license)
 
 ## Features
@@ -88,17 +87,6 @@ if __name__ == '__main__':
 2. Interact with the chatbot by typing your questions or statements in the input field and clicking the "Send" button, or by clicking the "Speak" button to use speech-to-text input.
 3. The chatbot will respond based on its understanding of the input and the predefined rules.
 4. To customize the chatbot's behavior, modify the response pairs in the chat.py file. This file contains a list of regular expressions and corresponding responses that the chatbot uses to generate its replies.
-
-## Contributing
-
-Any contributions to this project are greatly appreciated. To contribute:
-
-1. Fork the repository.
-2. Create a new branch with a descriptive name (e.g., fix-speech-recognition).
-3. Commit your changes to the branch.
-4. Create a pull request.
-
-Please make sure to update tests as appropriate and adhere to the project's coding style.
 
 ## License
 
