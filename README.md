@@ -42,7 +42,7 @@ Follow these steps to set up and run the project on your local machine.
 ### Setting Up the Server
 
 1. Set up a server to host the chatbot backend (e.g., using Flask, Django, or Express.js).
-2. Deploy the chatbot backend (chat.py) on the server.
+2. Deploy the chatbot backend (bo.siu/eliza/chat.py) on the server.
 3. Update the `getServerUrl` function in the JavaScript code to return the URL of your deployed server.
 
 ### Installation
