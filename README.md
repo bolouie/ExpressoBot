@@ -2,7 +2,7 @@
 
 `ExpressoBot` is a beginner-friendly project that demonstrates how to create a simple chatbot using Python, NLTK, and activating speech-to-text with Webkit API. This chatbot allows users to interact using both text and speech input, making it more engaging and interactive.
 
-Coded by Bo Louie with instructor Chris Kim in Designing Artificial Intelligence (AI) applications at [OCAD University](https://continuingstudies.ocadu.ca/search/publicCourseSearchDetails.do?method=load&courseId=12164429&selectedProgramAreaId=17820&selectedProgramStreamId=17837)
+Coded by Bo Louie with instructor of Designing Artificial Intelligence (AI) applications at [OCAD University](https://continuingstudies.ocadu.ca/search/publicCourseSearchDetails.do?method=load&courseId=12164429&selectedProgramAreaId=17820&selectedProgramStreamId=17837)
 
 Preview Chatbot https://jsfiddle.net/bolouie/kabrzpgj/74/
 
