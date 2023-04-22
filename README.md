@@ -2,6 +2,10 @@
 
 `ExpressoBot` is a beginner-friendly project that demonstrates how to create a simple chatbot using Python, NLTK, and activating speech-to-text with Webkit API. This chatbot allows users to interact using both text and speech input, making it more engaging and interactive.
 
+Coded by Bo Louie with instructor Chris Kim in Designing Artificial Intelligence (AI) applications at [OCAD University](https://continuingstudies.ocadu.ca/search/publicCourseSearchDetails.do?method=load&courseId=12164429&selectedProgramAreaId=17820&selectedProgramStreamId=17837)
+
+Preview Chatbot https://jsfiddle.net/bolouie/kabrzpgj/74/
+
 ## Table of Contents
 
 - [Demystifying the Chatbot](#demystifying-the-chatbot)
@@ -61,16 +65,14 @@ Follow these steps to set up and run the project on your local machine.
    }
    ```
 
-```
-3.
-```
+3. Replace https://your.server.com in the config.json file with the URL of your deployed server hosting the chat.py file.
 
 ### Installation
 
 1. git clone https://github.com/bolouie/expressobot.git
 2. cd <PROJECT_DIRECTORY>
 3. pip nstall -r requirements.txt: This command installs the Python packages specified in the requirements.txt file. The -r option tells pip to read the package list from the provided file and install them accordingly. Installing these packages ensures that your project has all the necessary dependencies to run properly.
-4. (Optional) python app.py: This command starts the local Flask server (if you have set it up). It runs the app.py script, which contains the Flask application that serves your chatbot as a web app. By running this script, you start the Flask development server, which allows you to interact with the chatbot via a web browser.
+4. (Optional) python `app.py`: This command starts the local Flask server (if you have set it up). It runs the app.py script, which contains the Flask application that serves your chatbot as a web app. By running this script, you start the Flask development server, which allows you to interact with the chatbot via a web browser.
 
    ```
    from flask import Flask, render_template
