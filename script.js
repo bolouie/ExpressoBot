@@ -34,12 +34,13 @@ function send(e) {
 
   const path = "bo.siu/eliza/chat.py";
   const encodedMsg = encodeURIComponent(msg);
-  const serverUrl = getServerUrl();
-  const url = `${serverUrl}/chat/?path=${path}&msg=${encodedMsg}`;
+  getServerUrl().then((serverUrl) => {
+    const url = `${serverUrl}/chat/?path=${path}&msg=${encodedMsg}`;
 
-  $.ajax({
-    url: url,
-    success: (output) => appendToChat("BOT", output),
+    $.ajax({
+      url: url,
+      success: (output) => appendToChat("BOT", output),
+    });
   });
 }
 
@@ -50,7 +51,8 @@ function appendToChat(sender, message) {
 }
 
 // Get server URL from configuration
-function getServerUrl() {
-  // Replace this with the server URL that users need to configure
-  return "https://your.server.com";
+async function getServerUrl() {
+  const response = await fetch("config.json");
+  const config = await response.json();
+  return config.serverUrl;
 }
