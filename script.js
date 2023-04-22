@@ -32,10 +32,9 @@ function send(e) {
   appendToChat("YOU", msg);
   $("#msg").val("");
 
-  const path = "bo.siu/eliza/chat.py";
   const encodedMsg = encodeURIComponent(msg);
   getServerUrl().then((serverUrl) => {
-    const url = `${serverUrl}/chat/?path=${path}&msg=${encodedMsg}`;
+    const url = `${serverUrl}/chat/?msg=${encodedMsg}`;
 
     $.ajax({
       url: url,
