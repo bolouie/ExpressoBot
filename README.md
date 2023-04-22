@@ -17,9 +17,9 @@ Preview Chatbot https://jsfiddle.net/bolouie/kabrzpgj/74/
     - [Configuration](#configuration)
     - [Installation](#installation)
     - [Running the Chatbot](#running-the-chatbot)
-    - [Usage](#usage)
-    - [Contributing](#contributing)
-    - [License](#license)
+  - [Usage](#usage)
+  - [Contributing](#contributing)
+  - [License](#license)
 
 ## Features
 
@@ -82,14 +82,14 @@ if __name__ == '__main__':
 1. Place the chat.py file in your project directory.
 2. Make sure to replace <HTML_FILE_NAME> with the name of your HTML file (without the .html extension) when setting up the Flask app in the app.py file. This way, the Flask app will correctly render the HTML file when serving
 
-### Usage
+## Usage
 
 1. Open the HTML file in a web browser or visit the deployed chatbot URL if you have set up a server.
 2. Interact with the chatbot by typing your questions or statements in the input field and clicking the "Send" button, or by clicking the "Speak" button to use speech-to-text input.
 3. The chatbot will respond based on its understanding of the input and the predefined rules.
 4. To customize the chatbot's behavior, modify the response pairs in the chat.py file. This file contains a list of regular expressions and corresponding responses that the chatbot uses to generate its replies.
 
-### Contributing
+## Contributing
 
 Any contributions to this project are greatly appreciated. To contribute:
 
@@ -100,6 +100,6 @@ Any contributions to this project are greatly appreciated. To contribute:
 
 Please make sure to update tests as appropriate and adhere to the project's coding style.
 
-### License
+## License
 
 This project is licensed under the MIT License. See the LICENSE file for more information.
